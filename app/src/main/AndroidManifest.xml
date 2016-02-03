@@ -4,10 +4,11 @@
 
     <application
         android:allowBackup="true"
+        android:theme="@style/Theme.AppCompat"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name" >
         <activity
-            android:name=".BeatBoxActivity"
+            android:name=".controller.beatBox.BeatBoxActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
