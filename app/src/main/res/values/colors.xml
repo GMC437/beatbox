@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="monza_red">#CF000F</color>
+    <color name="light_monza_red">#F41E2E</color>
+    <color name="san_marino_blue">#446CB3</color>
+    <color name="san_marino_light_blue">#6689C9</color>
+    <color name="iron_grey">#DADFE1</color>
+
+</resources>

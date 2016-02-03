@@ -64,7 +64,7 @@ public class BeatBoxFragment extends Fragment {
             mButton.setOnClickListener(this);
         }
 
-        public void bindSounds(Sound sound) {
+        public void bindSound(Sound sound) {
             mSound = sound;
             mButton.setText(mSound.getName());
         }
@@ -93,7 +93,7 @@ public class BeatBoxFragment extends Fragment {
         public void onBindViewHolder(SoundHolder soundHolder, int position) {
 
             Sound sound = mSounds.get(position);
-            soundHolder.bindSounds(sound);
+            soundHolder.bindSound(sound);
         }
 
         @Override
