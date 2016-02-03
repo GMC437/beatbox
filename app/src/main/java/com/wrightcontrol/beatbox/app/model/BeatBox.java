@@ -48,7 +48,7 @@ public class BeatBox {
             return;
         }
 
-        mSounds = new ArrayList<Sound>();
+       // mSounds = new ArrayList<Sound>();
 
         for (String filename : soundNames) {
             try {
