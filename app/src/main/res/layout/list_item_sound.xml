@@ -2,11 +2,12 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:layout_width="match_parent"
-              android:layout_height="match_parent">
+              android:layout_height="match_parent"
+              android:layout_margin="@dimen/four_dp">
 
     <Button
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/one_hundred_twenty_dp"
+            android:layout_width="@dimen/one_hundred_dp"
+            android:layout_height="@dimen/one_hundred_dp"
             android:id="@+id/list_item_sound_button"
             />
 
