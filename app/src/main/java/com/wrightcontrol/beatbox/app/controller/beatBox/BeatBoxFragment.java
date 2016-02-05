@@ -20,7 +20,6 @@ import java.util.List;
 public class BeatBoxFragment extends Fragment {
 
     private BeatBox mBeatBox;
-    private Sound mSound;
 
     public static BeatBoxFragment newInstance() {
         return new BeatBoxFragment();
@@ -56,6 +55,7 @@ public class BeatBoxFragment extends Fragment {
     private class SoundHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
         private Button mButton;
+        private Sound mSound;
 
         public SoundHolder(LayoutInflater inflater, ViewGroup container) {
             super(inflater.inflate(R.layout.list_item_sound, container, false));

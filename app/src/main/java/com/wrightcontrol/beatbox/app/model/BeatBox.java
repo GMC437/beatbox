@@ -76,7 +76,7 @@ public class BeatBox {
         if (soundId == null) {
             return;
         }
-        mSoundPool.play(soundId, leftVol, rightVol, priority, loop, rate);
+            mSoundPool.play(soundId, leftVol, rightVol, priority, loop, rate);
     }
 
     public void release(){
